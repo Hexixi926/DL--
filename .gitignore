@@ -1,0 +1,30 @@
+# 忽略模型文件
+*.bin
+*.pt
+*.ckpt
+*.h5
+
+# 忽略模型文件夹
+checkpoints/
+model/
+output/
+
+# 忽略数据集
+data/
+datasets/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略 Jupyter 的临时文件
+.ipynb_checkpoints/
+
+# 忽略日志文件
+*.log
+wandb/
+
+# 忽略环境文件
+.env
+.venv/
