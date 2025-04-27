@@ -28,3 +28,15 @@ wandb/
 # 忽略环境文件
 .env
 .venv/
+
+# 忽略 .deb 安装包
+*.deb
+
+# 忽略 Python 安装包 (.whl)
+*.whl
+
+# 忽略 flash_attention 相关构建文件夹（如果有）
+flash_attn-*/
+
+# 再次确认忽略 CUDA 相关
+cuda-repo-*/
